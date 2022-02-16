@@ -16,7 +16,6 @@ export default function Home() {
         <Stack spacing={4}>
 
           <Input name="email" label="Email" type="email" />
-
           <Input name="password" label="Senha" type="password" />
 
         </Stack>

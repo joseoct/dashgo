@@ -12,7 +12,7 @@ export function Input({name, label, type, ...rest}) {
       <ChakraInput
         name={name}
         id={name}
-        type="email"
+        type={type}
         focusBorderColor="pink.500"
         bgColor="gray.900"
         variant="filled"

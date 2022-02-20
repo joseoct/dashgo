@@ -7,7 +7,6 @@ interface ActiveLinkProps extends LinkProps {
 }
 
 export function ActiveLink({ children, ...rest } : ActiveLinkProps) {
-  let isActive = false;
 
   const { asPath } = useRouter()
 

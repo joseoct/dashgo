@@ -77,7 +77,7 @@ export default function UserList() {
                     </Text>
                   </Box>
                 </Td>
-                { isLg && <Td>04 de Abril, 2021</Td> }
+                {isLg && <Td>04 de Abril, 2021</Td>}
               </Tr>
             </Tbody>
           </Table>
